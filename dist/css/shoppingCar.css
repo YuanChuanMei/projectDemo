@@ -1,0 +1,289 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+header {
+  width: 100%;
+  height: 28px;
+  background-color: #f4f4f4; }
+  header .content {
+    width: 1210px;
+    height: 28px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .content .left ul {
+      list-style: none; }
+      header .content .left ul li {
+        float: left;
+        padding: 4px;
+        font-size: 12px; }
+      header .content .left ul li:first-child a {
+        color: #7c9292; }
+      header .content .left ul li:first-child a:hover {
+        color: #ff0000; }
+      header .content .left ul .li1 {
+        color: #bfbfbf; }
+      header .content .left ul a {
+        color: #3c9c37; }
+      header .content .left ul a:hover {
+        color: #ff0000;
+        text-decoration: underline; }
+    header .content .right ul {
+      list-style: none; }
+      header .content .right ul li {
+        font-size: 12px;
+        padding: 5px;
+        float: left;
+        line-height: 28px; }
+        header .content .right ul li a {
+          color: #666666;
+          text-decoration: none; }
+        header .content .right ul li a:hover {
+          color: #ff0000;
+          text-decoration: underline; }
+      header .content .right ul li:first-child img {
+        width: 15px;
+        height: 15px;
+        color: #ff0000; }
+      header .content .right ul li:first-child span {
+        color: #ff0000; }
+
+#top {
+  width: 100%;
+  height: 98px; }
+  #top .content {
+    width: 1210px;
+    height: 98px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #top .content .center div {
+      width: 400px;
+      height: 28px;
+      border: 2px solid #cccccc;
+      border-radius: 5px;
+      position: relative; }
+      #top .content .center div img {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        width: 14px;
+        height: 14px; }
+      #top .content .center div .txt {
+        width: 300px;
+        height: 28px;
+        margin-left: 28px;
+        border: none;
+        border-radius: 2px;
+        /*清除掉默认的padding*/
+        padding: 0px;
+        text-indent: 10px;
+        outline: none;
+        float: left; }
+      #top .content .center div .btn {
+        width: 70px;
+        height: 28px;
+        background: #cccccc;
+        border: 0px;
+        float: right;
+        font-size: 14px;
+        color: #6a6a6a;
+        cursor: pointer; }
+    #top .content .center ul li {
+      list-style: none;
+      float: left;
+      font-size: 12px;
+      color: #666666;
+      padding: 4px; }
+      #top .content .center ul li a {
+        color: #666666;
+        text-decoration: none; }
+      #top .content .center ul li a:hover {
+        text-decoration: underline;
+        color: #e56111; }
+
+nav {
+  width: 100%;
+  height: 36px;
+  background-color: #56990a; }
+  nav #navbox {
+    width: 1210px;
+    margin: 0 auto;
+    position: relative; }
+    nav #navbox #navhead {
+      position: absolute;
+      left: 205px;
+      top: 0; }
+      nav #navbox #navhead ul li {
+        float: left;
+        padding: 10px 15px;
+        border-right: 1px solid #367400; }
+        nav #navbox #navhead ul li a {
+          font-size: 14px;
+          color: #ffffff;
+          text-decoration: none; }
+      nav #navbox #navhead ul li:hover {
+        background-color: #367400; }
+      nav #navbox #navhead ul li:first-child {
+        background-color: #367400; }
+
+#contenter {
+  width: 100%; }
+  #contenter main {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+    #contenter main p {
+      height: 60px;
+      background-color: #ffffff;
+      border-top: 2px solid #bfbfbf;
+      margin-top: 10px;
+      line-height: 60px; }
+      #contenter main p span {
+        padding: 5px 15px;
+        background-color: #56990a; }
+    #contenter main table {
+      width: 980px;
+      flex: 1;
+      border: 1px solid #bfbfbf;
+      text-align: center; }
+      #contenter main table caption {
+        border: 1px solid #bfbfbf;
+        border-bottom: 2px solid #3c9c37;
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 20px;
+        height: 30px;
+        line-height: 28px;
+        background-color: #f8f8f8; }
+      #contenter main table tr {
+        font-size: 14px; }
+        #contenter main table tr td {
+          border: 1px solid #bfbfbf; }
+      #contenter main table .first {
+        height: 40px;
+        line-height: 40px;
+        background-color: #f8f8f8; }
+      #contenter main table .content_tr {
+        height: 60px;
+        line-height: 60px;
+        background-color: #ffffff; }
+        #contenter main table .content_tr img {
+          width: 60px;
+          height: 60px;
+          padding-top: 5px;
+          float: left;
+          margin-left: 10px; }
+        #contenter main table .content_tr a {
+          font-size: 14px;
+          color: #000000;
+          text-decoration: none;
+          float: left;
+          margin-left: 10px; }
+        #contenter main table .content_tr a:hover {
+          color: #e56111;
+          text-decoration: underline; }
+        #contenter main table .content_tr td:nth-of-type(3) {
+          color: #ff0000; }
+        #contenter main table .content_tr td button {
+          cursor: pointer;
+          width: 30px;
+          height: 30px; }
+        #contenter main table .content_tr td span {
+          padding: 0 10px; }
+      #contenter main table #amount {
+        height: 40px;
+        line-height: 40px;
+        background-color: #f8f8f8; }
+        #contenter main table #amount td:last-child a {
+          cursor: pointer; }
+
+#footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  overflow: hidden; }
+  #footer div {
+    width: 1210px;
+    height: 60px;
+    margin: 0 auto;
+    padding-left: 45px; }
+    #footer div #icon {
+      height: 60px; }
+      #footer div #icon li {
+        list-style: none;
+        float: left; }
+  #footer .content {
+    clear: both;
+    font-size: 12px;
+    text-align: center;
+    width: 1210px;
+    padding-top: 10px; }
+    #footer .content ul {
+      width: 520px;
+      height: 12px;
+      margin: 0 auto; }
+      #footer .content ul li {
+        float: left;
+        padding: 5px;
+        font-size: 12px;
+        color: #999999; }
+        #footer .content ul li img {
+          padding: 0px;
+          width: 15px; }
+        #footer .content ul li a {
+          color: #999999;
+          text-decoration: none; }
+        #footer .content ul li a:hover {
+          color: #000000;
+          text-decoration: underline; }
+    #footer .content p {
+      padding-top: 10px;
+      color: #999999; }
+    #footer .content p:nth-of-type(1) {
+      padding-top: 5px; }
+    #footer .content img {
+      padding-top: 8px; }

@@ -1,0 +1,22 @@
+[
+    {"id":1,"name":"金盏菊","img":"../images/list_images/ia_100000022.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":2,"name":"赶黄草","img":"../images/list_images/ia_100000017.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":3,"name":"藏红花","img":"../images/list_images/ia_100000018.jpg","price1":"￥30.0元","price2":"15.00"},
+    {"id":4,"name":"黑苦荞茶","img":"../images/list_images/ia_100000019.jpg","price1":"￥10.0元","price2":"4.00"},
+    {"id":5,"name":"红巧梅","img":"../images/list_images/ia_100000020.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":6,"name":"勿忘我","img":"../images/list_images/ia_100000021.jpg","price1":"￥15.0元","price2":"8.00"},
+    {"id":7,"name":"金盏菊","img":"../images/list_images/ia_100000022.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":8,"name":"桂花茶","img":"../images/list_images/ia_100000023.jpg","price1":"￥4.0元","price2":"2.00"},
+    {"id":9,"name":"牡丹花","img":"../images/list_images/ia_100000024.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":10,"name":"洛神花","img":"../images/list_images/ia_100000025.jpg","price1":"￥23.0元","price2":"8.00"},
+    {"id":11,"name":"百合花","img":"../images/list_images/ia_100000026.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":12,"name":"大麦茶","img":"../images/list_images/ia_100000027.jpg","price1":"￥45.0元","price2":"8.00"},
+    {"id":13,"name":"山茶花","img":"../images/list_images/ia_100000028.jpg","price1":"￥10.0元","price2":"5.00"},
+    {"id":14,"name":"木瓜丝","img":"../images/list_images/ia_100000029.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":15,"name":"迷迭香","img":"../images/list_images/ia_100000030.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":16,"name":"苦瓜片","img":"../images/list_images/ia_100000031.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":17,"name":"三七花","img":"../images/list_images/ia_100000032.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":18,"name":"玫瑰花","img":"../images/list_images/ia_100000033.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":19,"name":"柠檬片","img":"../images/list_images/ia_100000034.jpg","price1":"￥10.0元","price2":"8.00"},
+    {"id":20,"name":"减肥果","img":"../images/list_images/ia_100000035.jpg","price1":"￥10.0元","price2":"8.00"}
+]

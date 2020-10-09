@@ -1,0 +1,296 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+header {
+  width: 100%;
+  height: 28px;
+  background-color: #f4f4f4; }
+  header .content {
+    width: 1210px;
+    height: 28px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .content .left ul {
+      list-style: none; }
+      header .content .left ul li {
+        float: left;
+        padding: 4px;
+        font-size: 12px; }
+      header .content .left ul li:first-child a {
+        color: #7c9292; }
+      header .content .left ul li:first-child a:hover {
+        color: #ff0000; }
+      header .content .left ul .li1 {
+        color: #bfbfbf; }
+      header .content .left ul a {
+        color: #3c9c37; }
+      header .content .left ul a:hover {
+        color: #ff0000;
+        text-decoration: underline; }
+    header .content .right ul {
+      list-style: none; }
+      header .content .right ul li {
+        font-size: 12px;
+        padding: 5px;
+        float: left;
+        line-height: 28px; }
+        header .content .right ul li a {
+          color: #666666;
+          text-decoration: none; }
+        header .content .right ul li a:hover {
+          color: #ff0000;
+          text-decoration: underline; }
+      header .content .right ul li:first-child img {
+        width: 15px;
+        height: 15px;
+        color: #ff0000; }
+      header .content .right ul li:first-child span {
+        color: #ff0000; }
+
+#top {
+  width: 100%;
+  height: 98px; }
+  #top .content {
+    width: 1210px;
+    height: 98px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #top .content .center div {
+      width: 400px;
+      height: 28px;
+      border: 2px solid #cccccc;
+      border-radius: 5px;
+      position: relative; }
+      #top .content .center div img {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        width: 14px;
+        height: 14px; }
+      #top .content .center div .txt {
+        width: 300px;
+        height: 28px;
+        margin-left: 28px;
+        border: none;
+        border-radius: 2px;
+        /*清除掉默认的padding*/
+        padding: 0px;
+        text-indent: 10px;
+        outline: none;
+        float: left; }
+      #top .content .center div .btn {
+        width: 72px;
+        height: 28px;
+        background: #cccccc;
+        border: 0px;
+        float: right;
+        font-size: 14px;
+        color: #6a6a6a;
+        cursor: pointer; }
+    #top .content .center ul li {
+      list-style: none;
+      float: left;
+      font-size: 12px;
+      color: #666666;
+      padding: 4px; }
+      #top .content .center ul li a {
+        color: #666666;
+        text-decoration: none; }
+      #top .content .center ul li a:hover {
+        text-decoration: underline;
+        color: #e56111; }
+
+nav {
+  width: 100%;
+  height: 36px;
+  background-color: #56990a; }
+  nav #navbox {
+    width: 1210px;
+    margin: 0 auto;
+    position: relative; }
+    nav #navbox #navhead {
+      position: absolute;
+      left: 205px;
+      top: 0; }
+      nav #navbox #navhead ul li {
+        float: left;
+        padding: 10px 15px;
+        border-right: 1px solid #367400; }
+        nav #navbox #navhead ul li a {
+          font-size: 14px;
+          color: #ffffff;
+          text-decoration: none; }
+      nav #navbox #navhead ul li:hover {
+        background-color: #367400; }
+      nav #navbox #navhead ul li:first-child {
+        background-color: #367400; }
+
+#contenter {
+  width: 100%;
+  margin-top: 10px; }
+  #contenter main {
+    width: 1210px;
+    height: 360px;
+    margin: 0 auto; }
+    #contenter main img {
+      float: left;
+      margin-left: 50px; }
+    #contenter main #regist {
+      width: 500px;
+      height: 350px;
+      background-color: #fafafa;
+      float: right;
+      margin-right: 70px;
+      border: 1px solid #9e9e9e;
+      box-shadow: 2px 2px 2px #f0f0f3; }
+      #contenter main #regist p {
+        height: 30px;
+        font-size: 16px;
+        color: #999999;
+        padding: 10px 0 0 10px;
+        border-bottom: 1px solid #cacaca; }
+      #contenter main #regist form {
+        width: 450px;
+        height: 300px;
+        background-color: #fafafa;
+        margin-left: 20px;
+        font-size: 14px; }
+        #contenter main #regist form ul li:nth-of-type(1) {
+          padding-left: 15px; }
+        #contenter main #regist form ul li:nth-of-type(2) {
+          padding-left: 22px; }
+        #contenter main #regist form ul li:nth-of-type(4) {
+          margin-left: 10px;
+          margin-right: 15px;
+          font-size: 12px;
+          color: #bfbfbf;
+          border-bottom: 1px solid #cccccc; }
+        #contenter main #regist form ul li:last-child {
+          font-size: 12px;
+          color: blue;
+          padding-left: 10px; }
+          #contenter main #regist form ul li:last-child a {
+            padding-right: 10px;
+            text-decoration: none; }
+        #contenter main #regist form ul li:nth-of-type(3) {
+          width: 120px;
+          padding-left: 50px; }
+          #contenter main #regist form ul li:nth-of-type(3) button {
+            width: 100px;
+            height: 40px;
+            background-color: orange;
+            font-size: 16px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer; }
+          #contenter main #regist form ul li:nth-of-type(3) a {
+            text-decoration: none;
+            color: blue;
+            font-size: 14px;
+            padding-right: 10px; }
+        #contenter main #regist form ul li {
+          list-style: none;
+          padding: 10px 5px;
+          font-size: 14px; }
+          #contenter main #regist form ul li input {
+            width: 200px;
+            height: 20px;
+            font-size: 12px; }
+          #contenter main #regist form ul li span {
+            padding-left: 10px;
+            font-size: 12px;
+            color: #bfbfbf; }
+
+#footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  overflow: hidden; }
+  #footer div {
+    width: 1210px;
+    height: 60px;
+    margin: 0 auto;
+    padding-left: 45px; }
+    #footer div #icon {
+      height: 60px; }
+      #footer div #icon li {
+        list-style: none;
+        float: left; }
+  #footer .content {
+    clear: both;
+    font-size: 12px;
+    text-align: center;
+    width: 1210px;
+    padding-top: 10px; }
+    #footer .content ul {
+      width: 520px;
+      height: 12px;
+      margin: 0 auto; }
+      #footer .content ul li {
+        float: left;
+        padding: 5px;
+        font-size: 12px;
+        color: #999999; }
+        #footer .content ul li img {
+          padding: 0px;
+          width: 15px; }
+        #footer .content ul li a {
+          color: #999999;
+          text-decoration: none; }
+        #footer .content ul li a:hover {
+          color: #000000;
+          text-decoration: underline; }
+    #footer .content p {
+      padding-top: 10px;
+      color: #999999; }
+    #footer .content p:nth-of-type(1) {
+      padding-top: 5px; }
+    #footer .content img {
+      padding-top: 8px; }
